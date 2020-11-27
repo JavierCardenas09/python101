@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "src/webservice.py"
+CMD ["python", "src/webservices.py", host="0.0.0.0"]
